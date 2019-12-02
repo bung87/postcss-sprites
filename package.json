@@ -38,7 +38,7 @@
     "lodash": "^4.0.0",
     "postcss": "^5.0.14",
     "spritesmith": "^3.0.1",
-    "svg-sprite": "bung87/svg-sprite#puppeteer"
+    "svg-sprite": "https://github.com/bung87/svg-sprite/archive/v1.5.1.tar.gz"
   },
   "typings": "./typings.d.ts"
 }
