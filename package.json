@@ -1,5 +1,5 @@
 {
-  "name": "postcss-sprites",
+  "name": "@bung87/postcss-sprites",
   "version": "4.2.1",
   "description": "Generate spritesheets from stylesheets",
   "main": "lib/index.js",
@@ -13,12 +13,14 @@
     "png",
     "svg"
   ],
+  "engines": {
+    "npm": ">= 5.0.0"
+  },
   "scripts": {
     "test": "./node_modules/.bin/ava test/*.js --verbose --serial",
     "build": "./node_modules/.bin/babel src/ --out-dir lib/",
     "watch": "./node_modules/.bin/babel --watch src/ --out-dir lib/",
-    "prepublish": "npm test",
-    "pretest": "npm run build"
+    "prepublishOnly": "npm run build && npm test"
   },
   "repository": "2createStudio/postcss-sprites",
   "author": "2createStudio",
@@ -38,7 +40,7 @@
     "lodash": "^4.0.0",
     "postcss": "^5.0.14",
     "spritesmith": "^3.0.1",
-    "svg-sprite": "https://github.com/bung87/svg-sprite/archive/v1.5.1.tar.gz"
+    "@bung87/svg-sprite": "^1.5.1"
   },
   "typings": "./typings.d.ts"
 }

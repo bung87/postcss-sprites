@@ -1,5 +1,5 @@
 import fs from 'fs';
-import SVGSpriter from 'svg-sprite';
+import SVGSpriter from '@bung87/svg-sprite';
 import Promise from 'bluebird';
 import _ from 'lodash';
 
