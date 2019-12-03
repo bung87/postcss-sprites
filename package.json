@@ -1,5 +1,6 @@
 {
   "name": "@bung87/postcss-sprites",
+  "private": false,
   "version": "4.2.1",
   "description": "Generate spritesheets from stylesheets",
   "main": "lib/index.js",
